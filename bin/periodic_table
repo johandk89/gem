@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'periodic_table'
+
+chatter = PeriodicTable::Chatter.new
+chatter.say_hello
